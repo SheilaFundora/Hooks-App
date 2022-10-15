@@ -36,7 +36,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
                 <input 
                     type="text"
                     name="description"
-                    className="form-control"
+                    className="form-control mt-5"
                     placeholder="Aprender ..."
                     autoComplete="off"
                     value={ description }
@@ -45,7 +45,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
 
                 <button
                     type="submit"
-                    className="btn btn-outline-primary mt-1 btn-block"
+                    className="btn btn-outline-primary mt-3 btn-block"
                 >
                     Agregar
                 </button>
